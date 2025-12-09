@@ -52,11 +52,8 @@ public static int[] randomSubtraction(int numberOne, int numberTwo){
             }else{
             count++;
             moveOn = 0;
-            }
-
-            }
+            } }
             moveOn = 1;
-if(userResult == result){passed++;}else{failed++;}
             }
     int[] finalResult = {failed,passed,moveOn};
     return finalResult;
